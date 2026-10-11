@@ -1,196 +1,197 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2685.7">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Resume | Jiraprapha Prapha</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+Thai:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #263746;
+    --muted: #5f6c76;
+    --blue: #cfe5f4;
+    --blue-dark: #244c68;
+    --line: #9bb6c6;
+    --paper: #fff;
+    --canvas: #eef2f4;
+  }
+  * { box-sizing: border-box; }
+  html { background: var(--canvas); }
+  body {
+    margin: 0;
+    padding: 24px 12px;
+    background: var(--canvas);
+    color: var(--ink);
+    font-family: Inter, "Noto Sans Thai", sans-serif;
+    font-size: 11px;
+    line-height: 1.42;
+  }
+  .resume {
+    width: 210mm;
+    min-height: 297mm;
+    margin: 0 auto;
+    padding: 15mm 13mm 12mm;
+    background: var(--paper);
+    box-shadow: 0 8px 30px rgba(38,55,70,.12);
+    display: flex;
+    flex-direction: column;
+  }
+  .header {
+    border-bottom: 2px solid var(--line);
+    padding-bottom: 13px;
+    margin-bottom: 17px;
+  }
+  .eyebrow {
+    color: var(--blue-dark);
+    font-size: 9px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 7px;
+  }
+  h1 {
+    font-size: 27px;
+    line-height: 1.15;
+    margin: 0 0 5px;
+    color: var(--blue-dark);
+    letter-spacing: .2px;
+  }
+  .nickname { font-size: 12px; font-weight: 600; color: #56758a; }
+  .headline { margin-top: 8px; font-size: 11px; font-weight: 600; letter-spacing: .4px; }
+  .summary { margin: 9px 0 0; max-width: 660px; color: var(--muted); font-size: 10.5px; }
+  .columns { display: grid; grid-template-columns: 0.92fr 1.08fr; flex: 1; }
+  .left { padding: 0 19px 0 0; }
+  .right { padding: 0 0 0 20px; border-left: 1px solid var(--line); }
+  section { margin: 0 0 17px; break-inside: avoid; }
+  h2 {
+    margin: 0 0 9px;
+    padding: 5px 8px 4px;
+    background: var(--blue);
+    color: #1f394b;
+    font-size: 12px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    letter-spacing: .6px;
+    font-weight: 700;
+  }
+  p { margin: 0 0 6px; }
+  .contact-label { color: var(--blue-dark); font-size: 9px; font-weight: 700; text-transform: uppercase; letter-spacing: .7px; margin: 9px 0 3px; }
+  .contact { overflow-wrap: anywhere; color: #354957; }
+  .entry { margin-bottom: 11px; }
+  .entry-title { font-size: 11px; font-weight: 700; margin-bottom: 2px; }
+  .entry-sub { color: var(--muted); font-size: 10px; margin-bottom: 4px; }
+  ul { margin: 5px 0 0; padding-left: 16px; }
+  li { margin: 2px 0; }
+  .skills { display: flex; flex-wrap: wrap; gap: 5px; }
+  .skill { border: 1px solid #d7e6ef; background: #f4f9fc; padding: 4px 7px; border-radius: 3px; font-size: 9.5px; }
+  .footer { text-align: center; margin-top: auto; padding-top: 12px; color: #71818c; font-size: 8px; letter-spacing: .6px; }
+  @page { size: A4 portrait; margin: 0; }
+  @media print {
+    html, body { background: white; padding: 0; }
+    .resume { margin: 0; box-shadow: none; width: 210mm; min-height: 297mm; }
+    * { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
+  }
+  @media screen and (max-width: 760px) {
+    body { padding: 0; overflow-x: auto; }
+    .resume { margin: 0; }
+  }
+</style>
 </head>
 <body>
-<p class="p1">&lt;!DOCTYPE html&gt;</p>
-<p class="p1">&lt;html lang="en"&gt;</p>
-<p class="p1">&lt;head&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta charset="UTF-8"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;title&gt;Resume - Jiraprapha Prapha&lt;/title&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;style&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>* {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>box-sizing: border-box;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>margin: 0;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>padding: 0;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>font-family: 'Plus Jakarta Sans', sans-serif;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>body {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>background-color: #f4f5f7;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>color: #2d3748;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>line-height: 1.6;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>padding: 40px 20px;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>.container {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>max-width: 800px;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>margin: 0 auto;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>background: #ffffff;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>padding: 48px;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 20px;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>header {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>border-bottom: 2px solid #edf2f7;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>padding-bottom: 28px;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>margin-bottom: 32px;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>h1 {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>font-size: 2.4rem;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>color: #1a202c;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>font-weight: 700;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>letter-spacing: -0.5px;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>.subtitle {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>font-size: 1.1rem;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>color: #4a5568;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>font-weight: 500;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>margin-top: 6px;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>.contact-info {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>margin-top: 16px;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>display: grid;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));</p>
-<p class="p1"><span class="Apple-converted-space">            </span>gap: 10px;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>font-size: 0.92rem;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>color: #4a5568;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>.contact-item {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>align-items: center;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>gap: 8px;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>section {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>margin-bottom: 32px;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>h2 {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>font-size: 1.25rem;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>color: #1a202c;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>text-transform: uppercase;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>letter-spacing: 1px;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>border-left: 4px solid #3182ce;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>padding-left: 12px;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>margin-bottom: 18px;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>font-weight: 600;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>p {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>color: #4a5568;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>font-size: 0.98rem;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>.item {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>margin-bottom: 20px;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>.item-header {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>justify-content: space-between;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>align-items: baseline;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>font-weight: 600;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>color: #2d3748;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>font-size: 1.05rem;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>.item-sub {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>color: #718096;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>font-size: 0.92rem;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>margin-bottom: 6px;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>ul {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>list-style-type: disc;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>margin-left: 20px;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>color: #4a5568;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>font-size: 0.95rem;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>li {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>margin-bottom: 6px;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>.skills-grid {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>flex-wrap: wrap;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>gap: 10px;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>.tag {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>background: #ebf8ff;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>color: #2b6cb0;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>padding: 8px 16px;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 30px;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>font-size: 0.9rem;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>font-weight: 500;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/style&gt;</p>
-<p class="p1">&lt;/head&gt;</p>
-<p class="p1">&lt;body&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="container"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- Header / Contact Information --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;header&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;h1&gt;Jiraprapha Prapha&lt;/h1&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="subtitle"&gt;2nd Year Accounting Student &amp; Freelance Content Creator&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="contact-info"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="contact-item"&gt;📞 064-174-0736&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="contact-item"&gt;📧 praphajiraprapha27@gmail.com&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="contact-item" style="grid-column: span 2;"&gt;📍 Pasit Women's Dormitory, No. 21 Soi Vibhavadi Rangsit 2, Din Daeng, Bangkok 10400&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/header&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- Professional Summary --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;section&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2&gt;About Me&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;p&gt;Second-year Accounting student at the University of the Thai Chamber of Commerce with a strong analytical foundation combined with creative digital skills. Experienced freelance video editor and TikTok Affiliate Creator skilled in planning, producing, and managing social media content effectively.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/section&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- Education --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;section&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2&gt;Education&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="item"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="item-header"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;span&gt;University of the Thai Chamber of Commerce (UTCC)&lt;/span&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;span&gt;2024 – Present&lt;/span&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="item-sub"&gt;Bachelor of Accountancy (Department of Accounting) — 2nd Year Student&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/section&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- Experience &amp; Projects --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;section&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2&gt;Work Experience&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="item"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="item-header"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;span&gt;Freelance Content Creator &amp; Video Editor&lt;/span&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;span&gt;Present&lt;/span&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="item-sub"&gt;Self-Employed&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;ul&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;li&gt;Produce and edit short-form video content tailored for social media platforms.&lt;/li&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;li&gt;Manage affiliate marketing strategy and product showcases as a TikTok Affiliate Creator.&lt;/li&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;li&gt;Utilize creative tools for storytelling, visual composition, and content scheduling.&lt;/li&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;/ul&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/section&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- Technical Skills --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;section&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2&gt;Skills &amp; Expertise&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="skills-grid"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;span class="tag"&gt;Microsoft Excel&lt;/span&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;span class="tag"&gt;CapCut (Video Editing)&lt;/span&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;span class="tag"&gt;Canva (Graphic Design)&lt;/span&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;span class="tag"&gt;Content Creation&lt;/span&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;span class="tag"&gt;Affiliate Marketing&lt;/span&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;span class="tag"&gt;Financial &amp; Accounting Basics&lt;/span&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/section&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;/body&gt;</p>
-<p class="p1">&lt;/html&gt;</p>
+<article class="resume">
+  <header class="header">
+    <div class="eyebrow">Resume · Creative & Digital Content</div>
+    <h1>JIRAPRAPHA PRAPHA</h1>
+    <div class="nickname">Nickname: Me Thoe (มีเธอ)</div>
+    <div class="headline">VIDEO EDITOR&nbsp; | &nbsp;GRAPHIC DESIGN&nbsp; | &nbsp;CONTENT CREATOR</div>
+    <p class="summary">Creative and detail-oriented university student with an interest in video editing, graphic design, and digital content creation. Enjoys exploring new inspiration and trends to develop engaging visual content, and is eager to learn, improve, and contribute to creative projects.</p>
+  </header>
+
+  <div class="columns">
+    <div class="left">
+      <section>
+        <h2>Contact</h2>
+        <div class="contact-label">Phone</div>
+        <p class="contact">064-174-0736</p>
+        <div class="contact-label">Email</div>
+        <p class="contact">praphajiraprapha27@gmail.com</p>
+        <div class="contact-label">Address</div>
+        <p class="contact">303, Kabin Subdistrict, Chao Sam-ang Road, Kabin Buri District, Prachin Buri 25110, Thailand</p>
+      </section>
+
+      <section>
+        <h2>Personal Profile</h2>
+        <p>Creative, curious, and eager to learn, with an interest in visual communication and digital media. Enjoys experimenting with editing styles and design ideas while paying attention to detail and continuously developing new skills.</p>
+      </section>
+
+      <section>
+        <h2>Education</h2>
+        <div class="entry">
+          <div class="entry-title">University of the Thai Chamber of Commerce (UTCC)</div>
+          <div class="entry-sub">Currently studying</div>
+          <p>Bachelor's-level studies · Faculty of Accountancy, Accounting major</p>
+        </div>
+      </section>
+
+      <section>
+        <h2>Interests & Hobbies</h2>
+        <ul>
+          <li>Editing short-form videos and exploring storytelling styles</li>
+          <li>Finding fresh inspiration from creative work and digital content</li>
+          <li>Following social media trends and new content ideas</li>
+          <li>Learning new editing and design techniques</li>
+        </ul>
+      </section>
+    </div>
+
+    <div class="right">
+      <section>
+        <h2>Work Experience & Projects</h2>
+        <div class="entry">
+          <div class="entry-title">Video Editing · Graphic Design · Content Creation</div>
+          <div class="entry-sub">Freelance / Project-based experience</div>
+          <ul>
+            <li>Edit videos with clear pacing and engaging visual flow</li>
+            <li>Create graphic content to communicate ideas visually</li>
+            <li>Develop content concepts suited to the intended audience and platform</li>
+            <li>Explore trends and references to support creative direction</li>
+          </ul>
+        </div>
+        <p>Experience summary is based on the skills and work areas provided; add specific client, project, or date details when available.</p>
+      </section>
+
+      <section>
+        <h2>Skills</h2>
+        <div class="skills">
+          <span class="skill">Video Editing</span>
+          <span class="skill">Graphic Design</span>
+          <span class="skill">Content Creation</span>
+          <span class="skill">Creative Thinking</span>
+          <span class="skill">Attention to Detail</span>
+          <span class="skill">Quick Learner</span>
+          <span class="skill">CapCut</span>
+          <span class="skill">Canva</span>
+        </div>
+      </section>
+
+      <section>
+        <h2>Key Strengths</h2>
+        <ul>
+          <li>Creative thinking</li>
+          <li>Attention to detail</li>
+          <li>Willingness to learn and adapt</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Portfolio</h2>
+        <p>Available upon request.</p>
+      </section>
+    </div>
+  </div>
+  <div class="footer">GROW YOUR FUTURE · JIRAPRAPHA PRAPHA</div>
+</article>
 </body>
 </html>
